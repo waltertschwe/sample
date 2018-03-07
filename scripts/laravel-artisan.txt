@@ -1,0 +1,8 @@
+## create a migration
+php artisan make:migration create_users_table
+
+## create a model
+php artisan make:model User
+
+## create a model, migration and controller
+php artisan make:model User -mc
